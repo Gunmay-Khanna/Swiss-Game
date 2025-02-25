@@ -3,6 +3,7 @@ body {
     margin: 0;
     background-color: #f0f0f0;
     text-align: center;
+    position: relative;
 }
 
 #fact-box {
@@ -42,20 +43,19 @@ button:hover {
 
 #score, #timer {
     font-size: 20px;
-    margin-top: 10px;
-    position: fixed;
+    position: absolute;
     top: 20px;
-    width: 100%;
-    text-align: center;
+    right: 20px;
     z-index: 10;
+    color: #000;
 }
 
 #score {
-    left: 0;
+    top: 20px;
 }
 
 #timer {
-    right: 0;
+    top: 50px;
 }
 
 .game-over {
