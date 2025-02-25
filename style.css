@@ -43,19 +43,18 @@ button:hover {
 
 #score, #timer {
     font-size: 20px;
-    position: absolute;
-    top: 20px;
-    right: 20px;
+    position: relative;
+    margin-top: 20px;
     z-index: 10;
     color: #000;
 }
 
 #score {
-    top: 20px;
+    margin-bottom: 10px; /* Space between score and timer */
 }
 
 #timer {
-    top: 50px;
+    margin-bottom: 20px; /* Space between timer and the next content */
 }
 
 .game-over {
